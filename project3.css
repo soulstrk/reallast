@@ -1,0 +1,20 @@
+h1{
+  border-bottom: 5px solid black;
+  padding: 30px;
+  margin: 0px;
+  color: white;
+  text-align:center;
+  background-color: black;
+}
+#grid {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  height: 1000px;
+}
+#grid ol{
+  border-right: 5px solid black;
+  margin: 0px;
+  font-size: 25px;
+  font-family: fantasy;
+}
